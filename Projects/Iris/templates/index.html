@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Iris Predict</title>
+</head>
+<body>
+    <form action='/predict' method='POST'>
+        Sepal Length : <input type='text' name="sepal_length"><br>
+        Sepal Width : <input type='text' name="sepal_width"><br>
+        Petal Length : <input type='text' name="petal_length"><br>
+        Petal Width : <input type='text' name="petal_width"><br>
+        <h3>Class: {{answer}} <br></h3>
+        <button type='submit' value='Predict'>Predict</button>
+    </form>
+</body>
+</html>
